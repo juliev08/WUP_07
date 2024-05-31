@@ -32,6 +32,11 @@ state of a patient must be died or alive - we adjust that as well
   
 # Your Question - Is dying independent of sex?
 
+$H_0$:
+There is no difference in death depending on sex
+
+$H_A$: 
+There is a difference in death depending on sex
 
 # Methods
 
@@ -70,7 +75,11 @@ This numerical summary shows that almost twice as many males died than females
 
 ## Inferential results 
 
-
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
 
 
 ## Conclusions

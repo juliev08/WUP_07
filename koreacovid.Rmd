@@ -81,6 +81,13 @@ chisqtestGC(table1)
 fisher.test(table1)
 ```
 
+The p-value for the chi-squared test is 0.001 so we reject the null hypothesis that there is no difference in death depending on sex   
+
+The fisher exact test shows that men are 2.3 times more likely to die than women in Korea   
 
 ## Conclusions
 
+The barchart showed us that more men died during covid in Korea    
+The numerical results showed us that twice as many men died during covid than females did  
+Our null hypothesis stating that there is no difference in death depending on sex was rejected due to the p-value being 0.001 in the chi-squared test  
+During the fisher exact test, the results showed that men are 2.3 times more likely to die than women in Korea

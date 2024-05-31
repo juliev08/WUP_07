@@ -43,7 +43,13 @@ cat~cat
 
 ## Graphical results - use ggplot commands to do this  
 
+```{r}
+barchartGC(~result + Sex,data=kRdata)
+barchartGC(~result + Sex,data=kRdata, type="percent")
 
+```
+
+This barchart shows that during covid in Korea, more men died.
 
   
 

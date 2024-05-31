@@ -60,6 +60,13 @@ This barchart shows that during covid in Korea, more men died.
   
 ## Numerical results
 
+```{r}
+table1 <- xtabs(~result + Sex, data=kRdata)
+rowPerc(table1)
+colPerc(table1)
+```
+
+This numerical summary shows that almost twice as many males died than females
 
 ## Inferential results 
 
